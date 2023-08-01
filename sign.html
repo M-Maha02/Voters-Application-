@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+     body{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+                      rgba(0, 0, 0, 0.4)),url('vin.v1.jpg');
+     }
+    a{
+         color:white;
+    }
+    
+       h1{
+       text-align:center;
+       color:white;      }
+      form {
+        background-color: #f1f1f1;
+        max-width: 500px;
+        margin: 5px auto;
+        padding: 50px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .form-group {
+        margin-bottom: 20px;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0.5px solid #ccc;
+      }
+
+      button[type="submit"] {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #555;
+      }button[type="back"]:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+     <a href="login.html">---Way to login page---</a>
+    <h1>Welcome to Sign up page</h1>
+    <form action="votesign" method="post">
+      <div class="form-group">
+        <label for="full_name">Full Name</label>
+        <input type="text" id="full_name" name="full_name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+      </div>
+       <button type="submit">sign up</button></a>
+    
+    </form>
+    
+  </body>
+</html>
